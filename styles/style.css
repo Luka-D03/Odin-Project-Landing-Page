@@ -57,6 +57,7 @@ body {
     margin-bottom: 16px;
     padding: 8px;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .firstSection > .left {
@@ -64,5 +65,75 @@ body {
 }
 
 .monkey-main {
-    width: 500px;
+    width: 400px;
+}
+
+/* Seccond section */
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.seccondSection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.seccondSection > .monkey > img {
+    width: 250px;
+    height: 350px;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    margin: 40px 0px;
+}
+
+.quoteText {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #5f656d;
+}
+
+.quoteText > span {
+    color: #1f2937;
+}
+
+/* Sign up section */
+
+.bluePart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 16px;
+    margin: 0 25% 32px;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+}
+
+.signUp {
+    cursor: pointer;
+    margin-left: 38px;
+    border: 2px solid white;
+    padding: 5px 30px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
